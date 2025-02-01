@@ -7,8 +7,8 @@
     <style>
         body {
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            background: linear-gradient(to bottom, #0045ff, #00d4ff);
-            color: #fff;
+            background: #F7F7F7; /* Soft off-white background */
+            color: #333; /* Dark gray text color */
             margin: 0;
             padding: 0;
             line-height: 1.6;
@@ -17,20 +17,20 @@
         .container {
             max-width: 800px;
             margin: 50px auto;
-            background: rgba(255, 255, 255, 0.2);
+            background: #ffffff; /* Light white background for content */
             padding: 20px;
             border-radius: 16px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
         h1, h2 {
-            color: #fff;
+            color: #333; /* Dark gray for headings */
         }
         ul {
             list-style-type: none;
             padding: 0;
         }
         a {
-            color: #FFD700;
+            color: #0066cc; /* Softer blue for links */
             text-decoration: none;
             font-weight: bold;
         }
@@ -40,7 +40,7 @@
         .footer {
             margin-top: 20px;
             font-size: 0.9em;
-            color: #ddd;
+            color: #aaa; /* Lighter gray for footer text */
         }
         .btn {
             display: inline-block;
@@ -51,14 +51,14 @@
             color: white;
             text-transform: uppercase;
             font-weight: bold;
-            background: linear-gradient(to right, #00d4ff, #0045ff);
+            background: #4CAF50; /* Soft green button color */
             border: none;
             cursor: pointer;
             transition: background 0.3s ease, transform 0.3s ease;
         }
         .btn:hover {
-            background: linear-gradient(to right, #0045ff, #00d4ff);
-            transform: scale(1.1);
+            background: #45a049; /* Darker green on hover */
+            transform: scale(1.05);
         }
         .logo {
             width: 120px;
@@ -68,20 +68,12 @@
         .tagline {
             font-size: 1.5em;
             font-weight: bold;
-            color: white;
-            text-shadow: 2px 2px 4px black;
+            color: #333;
         }
         .highlight {
-            color: yellow;
+            color: #FF9800; /* Warm orange color for emphasis */
             display: block;
-            text-shadow: 2px 2px 4px black;
-        }
-        .header-buttons {
-            margin: 20px 0;
-        }
-        .header-buttons .btn {
-            margin: 0 15px;
-            background-color: #0045ff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
         }
 
         /* Mobile responsiveness */
@@ -95,10 +87,6 @@
             }
             .tagline {
                 font-size: 1.2em;
-            }
-            .header-buttons .btn {
-                margin: 10px;
-                font-size: 1em;
             }
             .btn {
                 font-size: 1em;
@@ -116,14 +104,10 @@
             .tagline {
                 font-size: 1em;
             }
-            .header-buttons .btn {
+            .btn {
                 width: 100%;
                 margin: 10px 0;
                 font-size: 1.1em;
-            }
-            .btn {
-                font-size: 1.1em;
-                padding: 10px 20px;
             }
             h1, h2 {
                 font-size: 1.2em;
